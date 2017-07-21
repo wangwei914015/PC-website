@@ -1,0 +1,627 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	}
+body,html{
+	       width:100%;
+	       height:100%;
+		   font-family:微软雅黑;
+		   position:relative;
+		   min-width:1800px;
+	     }
+/*头部样式*/
+header{
+	    width:100%;
+		height:53%;
+		background:url(../images/imagesindex/bgimg1.jpg);
+		position:relative;
+		z-index:1;
+	    }
+/*导航栏样式*/
+nav{
+	width:63%;
+	height:12%;
+	background:#FFF;
+	position:absolute;
+	display:flex;
+	align-items:center;
+	top:0;
+	left:18%;
+	z-index:2;
+	color:#333;
+	}
+nav a:first-child{
+                  width:14%;
+		          height:100%;
+		            } 
+.logo{
+	    width:100%;
+	    height:100%;
+          } 
+nav ul{
+	   width:48%;
+       height:100%;
+	   list-style:none;
+	   display:flex;
+	   align-items:center;
+           }
+
+nav ul li{
+	       width:14%;
+	       height:33%;
+		   border-right:1px solid #CCC;
+	       text-align:center;
+	     }
+nav ul li:last-child{
+	                   border-right:none;
+	                  }
+
+nav ul li a{
+	       width:100%;
+	       height:100%;
+		   text-decoration:none;
+		   color:#333;
+	      }
+
+
+.searchbox{
+	        width:25%;
+			height:45%;
+			display:flex;
+			justify-align:space-around;
+	       }
+.searchbox input{
+	              width:87%;
+				  height:100%;
+				  background:#f0f0f0;
+				  border-top-left-radius:5px;
+				  border-bottom-left-radius:5px;
+				  border:none;
+				  color:#333;
+	            }
+.searchlogo{
+	         width:10%;
+			 height:100%;
+			 border-top-right-radius:5px;
+		     border-bottom-right-radius:5px;
+	         }
+nav p{
+	    border-right:1px solid #ccc;
+	    width:4%;
+	    height:30%;
+	    text-align:center;
+	    font-size:14px;
+	}
+nav p:last-child{
+	              border-right:none;
+                 } 
+/*活动图片样式*/
+.secondul{
+	       width:15%;
+		   height:16%;
+		   list-style:none;
+		   position:absolute;
+		   left:18%;
+		   top:78%;
+		   z-index:2;
+	      }
+.secondul li{
+	          width:30%;
+			  height:100%;
+			  border:1px solid #FFF;
+			  display:inline-block;
+	           }
+.secondul li img{
+	              width:100%;
+				  height:100%;
+	             }
+/*第二部分样式*/
+.secondsection{
+	            width:100%;
+				height:30%;
+				background:#f0f0f0;
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				color:#333;
+	           }
+.secondsection div{
+	                width:31.5%;
+					height:78%;
+					background:url(../images/imagesindex/box_01.jpg);
+					background-size:100% 100%;
+                   }
+.secondsection div:nth-child(2)
+                     {
+						 margin-left:1%;
+						 background:url(../images/imagesindex/box_02.jpg);
+					     background-size:100% 100%;
+					 }
+.secondsection div h3{
+	                 font-family:'Conv_Tungsten-Medium';
+	                 font-size:40px;
+	                 text-transform: uppercase;
+                   	 margin-left:5%;
+	                 margin-top:4%;
+	                 }
+.secondsection div h3 span{
+	                       font:16px 微软雅黑;
+	                       }
+hr{
+	width:13%;
+	height:2%;
+	background:#F93;
+	display:block;
+	border:none;
+	margin-left:5%;
+	margin-top:1%;
+	margin-bottom:2%;
+	}
+.secondsection div p{
+	                  font-size:14px;
+					  color:#999;
+					  margin-left:5%;
+	                  margin-top:0.5%;
+	                 }
+.secondsection div p:last-child{
+	                             border:1px solid #CCC;
+								 width:17%;
+								 height:10%;
+								 text-align:center;
+								 margin-top:3%;
+	                             }
+/*第三部分样式*/
+.threthsection{
+	            width:100%;
+				height:63%;
+				display:flex;
+				flex-flow:column wrap;
+				align-items:center;
+	            }
+.addressdiv{
+	        width:64%;
+			height:10%;
+			background:#FFF;
+			display:flex;
+		    justify-content:space-between;
+	        }
+.addressdiv h2{
+	            width:10%;
+				height:100%;
+				color:#333;
+				line-height:2.5;
+	           }
+.addressdiv ul{
+	           width:43%;
+			   height:100%;
+			   list-style:none;
+			   display:flex;
+			   justify-content:space-between;
+			   align-items:center;
+			   font:14px 微软雅黑;
+			   color:#999;
+			   text-align:center;
+	          }
+.addressdiv ul p{
+	             width:20%;
+				 height:35%;
+	            }
+.addressdiv ul li{
+	             width:10%;
+				 height:35%;
+				 border-right:1px solid #CCC;
+	            }
+.addressdiv ul li:last-child{
+	                         border-right:none;
+	                        }
+.imagediv{
+	        width:64%;
+			height:75%;
+			display:flex;
+			flex-flow:row wrap;
+			justify-content:space-between;
+			align-content:space-between;
+	      }
+/*第三部分中图片区的共用样式*/
+.imagediv div{
+	           width:31.5%;
+			   height:46%;
+			   position:relative;
+			   z-index:1;
+	          }
+.imagediv div img{
+	               width:100%;
+				   height:100%;
+	              }
+.imagediv div .fgdiv{
+	                   width:88%;
+					   height:20%;
+		               position:absolute;
+		               z-index:2;
+		               top:72%;
+		               left:6%;
+					   color:#FFF;
+					   font-size:14px;
+	                  }
+.fgdiv .timespan{
+	              float:right;
+				  display:block;
+	             }
+.imagediv div .fgdiv .addresslogo{
+	                               width:100%;
+								   height:45%;
+								   display:flex;
+								   justify-content:space-between;
+								   font-size:12px;
+								   margin-top:1%;
+                                 }
+.addresslogo div:nth-child(1){
+	                            width:6%;
+				                height:100%;
+	                           }
+ .addresslogo div:nth-child(2){
+	                            width:20%;
+				                height:100%;
+	                          }
+ .addresslogo div:nth-child(3){
+	                           width:74%;
+				               height:100%;
+							   text-align:right; 
+	                          }
+.addresslogo div .numspan{
+	                      font-size:18px;
+		                  color:#F93;
+	                    }
+.fgdiv .addresslogo div img{
+	                        width:100%;
+							height:100%;
+	                        }
+.txtdiv{
+	     width:64%;
+		 height:15%;
+	              }
+.txtdiv p{
+	       width:14%;
+		   height:30%;
+		   border:1px solid #CCC;
+		   color:#666;
+		   font-size:12px;
+		   text-align:center;
+		   line-height:2;
+		   margin-left:43%;
+		   margin-top:2.5%;
+	      }
+/*第四部分样式*/
+.fouthsection{
+	            width:100%;
+				height:30%;
+				overflow:hidden;
+				background:url(../images/imagesindex/in_bg01.jpg) no-repeat center top;
+				background-attachment:fixed;
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				color:#FFF;
+	           }
+.fouthsection div:nth-child(1){
+	                             width:27%;
+				                 height:56%;
+								 display:flex;
+								 flex-flow:column wrap;
+								 justify-content:space-between;
+	                            }
+.fouthsection div p span{
+	                      font-size:40px;
+						  font-family:'Conv_Tungsten-Medium';
+	                     }
+.fouthsection div ul {
+	                   width:100%;
+					   height:55%;
+					   list-style:none;
+					   display:flex;
+					   justify-content:space-between;
+	                  }
+/*第四部分图片共用样式*/
+.fouthsection div ul li{
+	                     width:17%;
+						 height:100%;
+						 text-align:center;
+						 border:1px solid #FFF;
+                       }
+.smallimg{
+	       margin:11% 15%;
+	     }
+.smalltxt{
+	       font-size:12px;
+	        }
+/*第四部分图片共用样式结束*/			
+.fouthsection div:nth-child(2){
+	                            width:21%;
+				                height:38%;
+								margin-left:16%;
+								display:flex;
+								flex-flow:column wrap;
+							    justify-content:space-between;
+								align-items:flex-end;
+	                           }
+.fouthsection div h4{
+	                  font-size:32px;
+					  font-weight:bold;
+					  text-align:right;
+	                 }
+.fouthsection div .fouthright{
+	                           width:70%;
+			                   height:35%;
+							   display:flex;
+							   justify-content:space-between;
+	                          }
+.fouthright p:nth-child(1){
+	                        width:43%;
+							height:100%;
+	                        font-size:12px;
+							line-height:3;
+	                       }
+.fouthright p:nth-child(2){
+	                        width:37%;
+							height:100%;
+							line-height:2;
+							background:#F93;
+							padding-left:10%;
+	                       }
+.fouthright img{
+	              width:10%;
+			      height:100%;
+	            }
+/*第五部分*/
+.fifthsection{
+	           width:100%;
+			   height:46%;
+			   display:flex;
+			   justify-content:center;
+	          }
+.fifdiv{
+	     width:64%;
+		 height:100%;
+		 border-bottom:1px solid #CCC;
+		 box-sizing:border-box;
+	    }
+.fifdiv h2{
+	       width:100%;
+		   height:25%;
+	       text-align:center;
+		   color:#333;
+		   line-height:4;
+	      }
+.fifdiv .fifthul{ 
+	              width:100%;
+			      height:42%;
+			      list-style:none;
+			      display:flex;
+			      flex-flow:row wrap;
+			      align-content:space-between;
+				  justify-content:space-between;
+	          }
+/*第五部分共用样式*/
+.fifthul li{
+	           width:11.5%;
+			   height:42%;
+			   border:1px solid #CCC;
+	           }
+
+.fifthul li img{
+	               width:100%;
+				   height:100%;
+	              }
+/*第五部分共用样式结束*/
+.fifdiv .chadiv{
+	            width:100%;
+		        height:32%;
+	           }
+.fifdiv .chadiv p{
+	                 width:14%;
+		             height:26%;
+		             border:1px solid #CCC;
+		             color:#666;
+		             font-size:12px;
+		             text-align:center;
+		             line-height:2.5;
+		             margin-left:43%;
+		             margin-top:2.5%;
+                 }
+/*尾部样式*/
+footer{
+	    width:100%;
+		height:30%;
+		display:flex;
+		justify-content:center;
+      }
+.footdiv{
+	      width:64%;
+		  height:100%;
+		  background:#FFF;
+		  display:flex;
+		  align-items:center;
+		  justify-content:space-between;
+	      }
+.footdiv div{
+	         width:12%;
+			 height:70%;
+	        }
+/*尾部共用样式*/
+.footdiv div h4{
+	              font-size:14px;
+				  color:#1b1b1b;
+	            }
+.footdiv div ul{
+	             list-style:none;
+				 width:100%;
+				 height:80%;
+				 margin-top:13%;
+			   }
+.footdiv div ul li{
+	                width:100%;
+					height:25%;
+					border-bottom:1px solid #CCC;
+					font-size:12px;
+					color:#666;
+					line-height:3;
+	                } 
+/*尾部共用样式结束*/
+.footdiv div:nth-child(1){
+	                       width:26%;
+						   height:70%;
+                         }
+.footdiv div .footlogo{
+	                   width:46%;
+		               height:26%;
+	                  }
+.footlogo img{
+	          width:100%;
+			  height:100%;
+			   }
+.footdiv div p{
+	           font-size:12px;
+	          }
+.footdiv div .firstp{
+	                 margin-top:8%;
+                      }
+.footdiv div:nth-child(5){
+	                       width:14%;
+						   height:70%;
+	                       }
+.footdiv div h6{
+	              font-size: 26px;
+                  color: #1480b9;
+                  font-family:'Conv_Tungsten-Medium';
+                  margin-bottom:10%;
+	            }
+.footdiv div h6~p{
+	               font-size:14px;
+	              }
+.footdiv div:nth-child(6){
+	                       width:9%;
+						   height:70%;
+	                       }
+.footdiv div img{
+				  box-sizing:boeder-box;
+	             }
+/*活动导航栏的样式*/
+.activediv{
+	       width:40px;
+		   height:210px;
+		   border:1px solid #666;
+		   position:absolute;
+		   z-index:10;
+		   left:1600px;
+		   top:550px;
+		   transition
+	       }
+.activediv div{
+	            width:40px;
+				height:40px;
+				border-bottom:1px solid #666;
+				position:relative;
+			    overflow:hidden;
+			    transition:all 1s ease;
+	            }
+.activediv div img{
+	               width:40px;
+				   height:100%;
+	              }
+
+.activediv  .oneimg{
+	                    width:40px;
+				        height:40px;
+	                    position:absolute; 
+						z-index:-1; 
+						top:0; 
+	                 }
+/*客服电话样式*/
+.activediv div .kftel{
+	                  width:210px;
+		              height:40px;
+					  display:flex;
+					  position:absolute;
+					  z-index:-1;
+					  justify-content:space-between;
+					  left:-170px;
+					  top:0;
+	                 }
+.kftel p{
+	     font-size:14px;
+		 color:#FFF;
+		 line-height:40px;
+		 width:170px;
+		 height:40px;
+		 background:#0e76bd;
+	    }
+.kftel .telimg{
+	            width:40px;
+			    height:40px;
+				border-bottom:none;
+	           }
+.telimg img{
+	         width:40px;
+			 height:40px;
+	        }
+/*二维码样式*/
+.activediv .activeewm{
+	                 position:absolute;
+					 z-index:-1;
+	                 width:180px;
+			         height:125px;
+			         top:-43px;
+					 display:flex;
+					 align-items:center;
+					 
+	                }
+.activeewm .bigdiv{
+	                 width:138px;
+		             height:124px;
+					 border:1px solid #666;
+					 display:none;
+	               }			
+.activeewm .smalldiv{
+	                 width:39px;
+					 height:39px;
+	               }			
+.activediv .activeewm .bigdiv img{
+	                   width:138px;
+		               height:124px;
+	                  }
+.smalldiv img{
+	           width:39px;
+		       height:39px;	
+              }
+/*top样式*/
+.activediv .lastdiv{
+	                  height:87px;
+				      border-bottom:none;
+				    }
+.activediv  .fourimg{
+	                    width:40px;
+				        height:87px;
+	                    position:absolute; 
+						z-index:-1; 
+						top:0; 
+	                 }
+/*活动导航栏动态效果图*/
+
+.activediv div:nth-child(2):hover .kftel{
+	                                      z-index:0;
+										  transform:translateX(170px);
+	                                     } 
+.activediv div:nth-child(2):hover{
+	                               width:210px;
+	                              }
+.activediv div:nth-child(1):hover .oneimg{
+	                                       z-index:0;
+                                          }
+.activediv div:nth-child(3):hover .activeewm{
+	                                         z-index:0;
+                                            }
+.activediv div:nth-child(4):hover .fourimg{
+	                                         z-index:0;
+	                                      }
